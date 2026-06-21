@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CloudBox — личное файловое хранилище</title>
+  <meta name="description" content="CloudBox — личное файловое хранилище для документов, архивов и рабочих файлов.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div class="visitor-bar" role="status" aria-live="polite">
+  <span class="visitor-label">INCOMING NODE</span>
+  <span class="visitor-separator">//</span>
+  <span>CLIENT IP:</span>
+  <strong id="clientIp">DETECTING...</strong>
+</div>
+<header class="topbar">
+  <a class="brand" href="/"><span class="brand-mark">C</span><span>CloudBox</span></a>
+  <nav>
+    <a href="/dashboard.html">Демо</a>
+    <a href="/status.html">Статус</a>
+    <a href="/privacy.html">Privacy</a>
+    <a class="btn btn-small" href="/login.html">Войти</a>
+  </nav>
+</header>
+
+<main class="hero">
+  <section class="hero-copy">
+    <div class="badge">Private storage · EU-North</div>
+    <h1>Личное файловое хранилище для документов и проектов</h1>
+    <p>CloudBox помогает хранить файлы, архивы, сканы, фотографии и рабочие документы в одном аккуратном пространстве.</p>
+    <div class="actions">
+      <a class="btn" href="/login.html">Войти в аккаунт</a>
+      <a class="btn btn-secondary" href="/dashboard.html">Открыть демо</a>
+    </div>
+  </section>
+
+  <section class="panel storage-card">
+    <div class="panel-head">
+      <div>
+        <h2>Storage overview</h2>
+        <p>Personal vault</p>
+      </div>
+      <span class="status-dot"></span>
+    </div>
+    <div class="meter"><span style="width:42%"></span></div>
+    <div class="stats">
+      <div><b>42.8 GB</b><span>использовано</span></div>
+      <div><b>100 GB</b><span>доступно</span></div>
+      <div><b>1 284</b><span>файла</span></div>
+    </div>
+    <ul class="file-list">
+      <li><span>📁</span> Documents <em>124 files</em></li>
+      <li><span>📁</span> Archives <em>38 files</em></li>
+      <li><span>📄</span> project-notes.pdf <em>2.4 MB</em></li>
+    </ul>
+  </section>
+</main>
+
+<section class="features">
+  <article><h3>Синхронизация</h3><p>Организация файлов по папкам, датам и типам документов.</p></article>
+  <article><h3>История</h3><p>Демо-интерфейс показывает последние изменения и системные события.</p></article>
+  <article><h3>Доступ</h3><p>Адаптивный интерфейс для компьютера, планшета и телефона.</p></article>
+</section>
+
+<footer>© 2026 CloudBox. Personal file storage service.</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

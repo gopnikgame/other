@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вход — CloudBox</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body class="auth-body">
+<main class="auth-wrap">
+  <a class="brand center-brand" href="/"><span class="brand-mark">C</span><span>CloudBox</span></a>
+  <section class="panel auth-panel">
+    <h1>Вход в аккаунт</h1>
+    <p>Введите данные учётной записи CloudBox.</p>
+    <form id="loginForm">
+      <label>Email</label>
+      <input type="email" name="email" placeholder="name@example.com" autocomplete="username" required>
+      <label>Пароль</label>
+      <input type="password" name="password" placeholder="••••••••" autocomplete="current-password" required>
+      <button class="btn full" type="submit">Войти</button>
+      <div id="loginError" class="error-box" hidden>Неверный email или пароль.</div>
+    </form>
+    <div class="id-box">
+      <div><span>User ID</span><b id="uid">usr-demo-7842</b></div>
+      <div><span>Storage ID</span><b>cbx-r7f2-91kq</b></div>
+      <div><span>Session</span><b id="sid">pending</b></div>
+    </div>
+  </section>
+</main>
+<script src="/assets/app.js"></script>
+</body>
+</html>

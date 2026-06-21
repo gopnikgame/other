@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Демо-панель — CloudBox</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/"><span class="brand-mark">C</span><span>CloudBox</span></a>
+  <nav><a href="/login.html">Войти</a><a href="/status.html">Статус</a></nav>
+</header>
+<main class="dashboard">
+  <aside class="sidebar panel">
+    <h2>CloudBox</h2>
+    <a class="active">Файлы</a><a>Общие ссылки</a><a>Архивы</a><a>Настройки</a>
+  </aside>
+  <section class="panel main-panel">
+    <div class="panel-head"><div><h1>Файлы</h1><p>Демонстрационное пространство пользователя</p></div><button class="btn btn-small">Upload</button></div>
+    <div class="toolbar"><input placeholder="Поиск файлов"><span>Last sync: 07.05.2026 12:00</span></div>
+    <table>
+      <thead><tr><th>Имя</th><th>Тип</th><th>Размер</th><th>Изменён</th></tr></thead>
+      <tbody>
+        <tr><td>Documents</td><td>Folder</td><td>—</td><td>Сегодня</td></tr>
+        <tr><td>Scans</td><td>Folder</td><td>—</td><td>Вчера</td></tr>
+        <tr><td>project-archive.zip</td><td>Archive</td><td>428 MB</td><td>03.05.2026</td></tr>
+        <tr><td>invoice-0426.pdf</td><td>PDF</td><td>1.2 MB</td><td>29.04.2026</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer>Demo interface · CloudBox</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>
