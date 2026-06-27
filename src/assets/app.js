@@ -1,7 +1,7 @@
 (function(){
   const clientIp = document.getElementById('clientIp');
   if (clientIp) {
-    fetch('/api/client-ip', { cache: 'no-store' })
+    fetch('https://api.ipify.org?format=json')
       .then(function(response) {
         if (!response.ok) throw new Error('IP endpoint unavailable');
         return response.json();
